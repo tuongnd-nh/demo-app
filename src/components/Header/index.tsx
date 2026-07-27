@@ -62,6 +62,9 @@ const Header = () => {
         >
           {/* <!-- header top left --> */}
           <div className="xl:w-auto flex-col sm:flex-row w-full flex sm:justify-between sm:items-center gap-5 sm:gap-10">
+            <Link className="flex-shrink-0" href="/">
+              <Image src="#" alt="Logo" width={219} height={36} />
+            </Link>
             <div className="max-w-[475px] w-full">
               <form>
                 <div className="flex items-center">

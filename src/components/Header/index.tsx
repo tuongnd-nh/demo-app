@@ -63,7 +63,12 @@ const Header = () => {
           {/* <!-- header top left --> */}
           <div className="xl:w-auto flex-col sm:flex-row w-full flex sm:justify-between sm:items-center gap-5 sm:gap-10">
             <Link className="flex-shrink-0" href="/">
-              <Image src="#" alt="Logo" width={219} height={36} />
+              <Image
+                src="/images/icons/icon-01.svg"
+                alt="Logo"
+                width={219}
+                height={36}
+              />
             </Link>
             <div className="max-w-[475px] w-full">
               <form>
@@ -142,7 +147,7 @@ const Header = () => {
                   24/7 SUPPORT
                 </span>
                 <p className="font-medium text-custom-sm text-dark">
-                  (+965) 7492-3477
+                  0987654321
                 </p>
               </div>
             </div>
